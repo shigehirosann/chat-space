@@ -12,6 +12,7 @@
 ### Association
 - has_many :comments
 - has_many :groups_users
+- thorough: :groups_users
 
 
 ## groupsテーブル
@@ -23,6 +24,7 @@
 
 ### Association
 - has_many :groups_users
+- thorough: :groups_users
 
 ## groups_usersテーブル
 
